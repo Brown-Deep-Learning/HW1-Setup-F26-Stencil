@@ -1,0 +1,38 @@
+name: csci2470
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.11.9
+  - pip
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - scikit-learn
+  - scipy
+  - pandas
+  - pandas-datareader
+  - matplotlib
+  - numpy
+  - pillow
+  - tqdm
+  - h5py
+  - pyyaml
+  - pandoc
+  - pytest
+  - pip:
+      - setuptools
+      - tensorflow==2.15
+      - tensorflow-datasets
+      - imageio
+      - kaggle
+      - gradescope_utils
+      - torch
+      - torchvision
+      - torchaudio
+      - tokenizers
+      - sentencepiece
+      - transformers
+      - importlib-metadata
